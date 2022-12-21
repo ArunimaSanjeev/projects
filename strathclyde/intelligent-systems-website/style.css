@@ -1,0 +1,88 @@
+body {
+	background-color: DarkKhaki; 
+	font-family:sans-serif;
+}
+
+h1 {
+	font-size: 24pt;
+	color: black;
+}
+
+
+h2 {
+	font-size: 20pt;
+	color: black;
+}
+
+h3 {
+    font-size: 17pt;
+}
+
+p {
+	font-size: 14pt;
+	color: black;
+}
+
+table,td,th {
+    border: 1px solid; 
+}
+
+
+/* This section alters the styling of the nav bar */
+ul {
+    list-style-type: none;
+    width: 100%;
+    padding: 0px;
+    overflow: hidden;
+    background-color: darkslategray;
+}
+
+li {
+    float: left;
+    width: 14.285714285%;
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
+/* This will change the colour of part of the nav when the cursor placed over it */
+li a:hover {
+    background-color: #232323;
+}
+
+/*Styling of reference lists*/
+.refs {
+    background-color: lightblue;
+}
+
+/* End of nav bar styling */
+
+/* This is the large header sitting at the top of webpages */
+.mainTitle{
+    font-weight: bold; 
+}
+
+/* This is the smaller header in the page */
+.subTitle{
+    font-style: italic; 
+}
+
+/*  This is the class for the main text field of web pages */
+.mainText{
+    margin: 2%; 
+}
+
+/*  This is the class for the references */
+.refs {
+    margin: 1%; 
+}
+
+.refs li {
+    width: 12%; 
+}
+
